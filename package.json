@@ -1,0 +1,17 @@
+{
+  "name": "new-hono-backup",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.12.0",
+    "date-fns": "^3.6.0",
+    "firebase-admin": "^12.2.0",
+    "hono": "^4.4.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
